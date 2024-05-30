@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Porfolio</title>
+</head>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>Kayner Cueva</h1>
+                    </div>
+                    <nav id="nav" class="">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </header>
+
+                <div class="fila">
+                    <div class="col">
+                        <h2>Desarrollador Junior</h2>
+                        <p>No tengo mucha experiencia en el ambito laboral pero si tengo mas experiencia en mi ambito como programador.</p>
+                        <button class="btn btn-1"><a href="document/Hoja de Vida Kayner Cueva.pdf">Descargar CV</a></button>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/foto-inicio.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!-- sección SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño Web</h3>
+                    <p>Es una disciplina enfocada en la planificación, ideación, creación e implementación de interfaces y plataformas digitales. En otras palabras, el diseño web es el proceso que engloba todos los elementos necesarios para crear páginas web.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+                    <h3>Soporte Clientes</h3>
+                    <p>El soporte técnico brinda asistencia intelectual, tecnológica y material a un cliente. Su objetivo principal es prevenir y resolver problemas, además de optimizar y mejorar el rendimiento de tus productos o servicios. Puede dividirse en dos grupos: el intelectual y el tecnológico.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-fire"></i>
+                        </div>
+                    </div>
+                    <h3>Codeigniter</h3>
+                    <p> facilitar el desarrollo de proyectos de manera eficiente al ofrecer un conjunto extenso de bibliotecas para tareas comunes y una interfaz sencilla. Su enfoque es permitir a los desarrolladores concentrarse en la creatividad de sus proyectos al minimizar la cantidad de código necesaria para tareas específicas.</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore neque ducimus cupiditate, placeat incidunt culpa quis quod distinctio.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+                    <h3>Soporte Clientes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore neque ducimus cupiditate, placeat incidunt culpa quis quod distinctio.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <h3>Tiendas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore neque ducimus cupiditate, placeat incidunt culpa quis quod distinctio.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="80">
+                                80%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>BOOSTRAP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>JAVASCRIPT</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>MYSQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="80">
+                                80%
+                            </div>
+                            <h2>PHP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="85">
+                                85%
+                            </div>
+                            <h2>CODEIGNITER</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/app_ci4.png" alt="">
+                <div class="info">
+                    <h3>Pagina de peliculas</h3>
+                    <span>Codeigniter 4</span><span>Mysql</span>
+                    <a href="https://screensaga.000webhostapp.com/app_ci4/index.php">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/transporte_urbanos.png" alt="">
+                <div class="info">
+                    <h3>Rutas de los Transportes Urbanos</h3>
+                    <span>MVC</span><span>Mysql</span>
+                    <a href="https://screensaga.000webhostapp.com/TransporteSanCristobal-main/Proyecto2022/index.php">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>kayner1112@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>Teléfono:</h3>
+                        <p>+593 0995195422</p>
+                    </div>
+                    <div class="info">
+                        <h3>País</h3>
+                        <p>Ecuador</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Quito</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Nombre...">
+                    <input type="text" placeholder="Correo...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Creado por Código Web - 2023 - Aprende Creando</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
